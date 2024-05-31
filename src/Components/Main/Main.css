@@ -103,6 +103,11 @@
   outline: none;
   padding: 8px;
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  min-width: 50px;
+  transition: width 0.3s ease-in-out;
 }
 
 .search-box div {
